@@ -4,7 +4,7 @@
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=h0ny.MobaXtermDecryptor "Visitors")](https://github.com/h0ny/MobaXtermDecryptor "Visitors")
 [![Stars](https://img.shields.io/github/stars/h0ny/MobaXtermDecryptor.svg?style=flat "Stars")](https://github.com/h0ny/MobaXtermDecryptor "Stars")
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/h0ny/MobaXtermDecryptor/total?color=orange)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/h0ny/MobaXtermDecryptor)
+[![GitHub Release](https://img.shields.io/github/v/release/h0ny/MobaXtermDecryptor)](https://github.com/h0ny/MobaXtermDecryptor/releases)
 ![GitHub License](https://img.shields.io/github/license/h0ny/MobaXtermDecryptor)
 
 ### 介绍
