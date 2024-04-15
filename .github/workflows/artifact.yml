@@ -15,8 +15,6 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: ${{ matrix.dotnet-version }}
-        run: |
-            echo $dotnet-version
           
       - name: Install dependencies
         run: |
@@ -36,4 +34,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: |
-            bin/Release/$dotnet-version/win-x64/publish/MobaXtermDecryptor.exe
+            bin/Release/.net8.0/win-x64/publish/MobaXtermDecryptor.exe
