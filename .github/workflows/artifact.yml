@@ -7,7 +7,7 @@ jobs:
     runs-on: windows-latest
     strategy:
       matrix:
-        dotnet: [ '2.1.x', '3.1.x', '6.0.x' ]
+        dotnet: [ '8.0.x' ]
 
     steps:
       - uses: actions/checkout@v4
@@ -34,4 +34,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: |
-            bin/Release/.net8.0/win-x64/publish/MobaXtermDecryptor.exe
+            bin/Release/net8.0/win-x64/publish/MobaXtermDecryptor.exe
