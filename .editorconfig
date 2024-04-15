@@ -1,7 +1,0 @@
-[*.cs]
-
-# CS8600: 将 null 字面量或可能为 null 的值转换为非 null 类型。
-dotnet_diagnostic.CS8600.severity = silent
-
-# CA1416: 验证平台兼容性
-dotnet_diagnostic.CA1416.severity = none

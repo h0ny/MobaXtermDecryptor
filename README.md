@@ -2,8 +2,9 @@
 
 [![Author](https://img.shields.io/badge/author-h0ny-red.svg "Author")](https://github.com/h0ny "Author")
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=h0ny.MobaXtermDecryptor "Visitors")](https://github.com/h0ny/MobaXtermDecryptor "Visitors")
-[![Stars](https://img.shields.io/github/stars/h0ny/MobaXtermDecryptor.svg?style=flat&label=Stars "Stars")](https://github.com/h0ny/MobaXtermDecryptor "Stars")
+[![Stars](https://img.shields.io/github/stars/h0ny/MobaXtermDecryptor.svg?style=flat&label=stars "Stars")](https://github.com/h0ny/MobaXtermDecryptor "Stars")
 [![Downloads](https://img.shields.io/github/downloads/h0ny/MobaXtermDecryptor/total.svg)](https://github.com/h0ny/NacosExploit/releases)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/h0ny/MobaXtermDecryptor)
 ![GitHub License](https://img.shields.io/github/license/h0ny/MobaXtermDecryptor)
 
 ### 介绍
@@ -81,7 +82,7 @@ PS C:\> .\MobaXtermDecryptor.exe C:\Users\Administrator\Desktop\MobaXterm.ini
 
 > 注意：对于便携版也需要在目标机器上运行，因为有进行 DPAPI 解密操作。
 
-### 参考项目
+### 参考项目 👍
 
 - https://github.com/qwqdanchun/Pillager
 - https://github.com/XMCyber/XMCredentialsDecryptor
