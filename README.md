@@ -2,8 +2,8 @@
 
 [![Author](https://img.shields.io/badge/author-h0ny-red.svg "Author")](https://github.com/h0ny "Author")
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=h0ny.MobaXtermDecryptor "Visitors")](https://github.com/h0ny/MobaXtermDecryptor "Visitors")
-[![Stars](https://img.shields.io/github/stars/h0ny/MobaXtermDecryptor.svg?style=flat&label=stars "Stars")](https://github.com/h0ny/MobaXtermDecryptor "Stars")
-[![Downloads](https://img.shields.io/github/downloads/h0ny/MobaXtermDecryptor/total.svg)](https://github.com/h0ny/NacosExploit/releases)
+[![Stars](https://img.shields.io/github/stars/h0ny/MobaXtermDecryptor.svg?style=flat "Stars")](https://github.com/h0ny/MobaXtermDecryptor "Stars")
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/h0ny/MobaXtermDecryptor/total?color=orange)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/h0ny/MobaXtermDecryptor)
 ![GitHub License](https://img.shields.io/github/license/h0ny/MobaXtermDecryptor)
 
