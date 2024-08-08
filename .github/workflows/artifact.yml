@@ -7,7 +7,7 @@ jobs:
     runs-on: windows-latest
     strategy:
       matrix:
-        dotnet: [ '8.0.x' ]
+        dotnet: [ '6.x' ]
 
     steps:
       - uses: actions/checkout@v4
@@ -18,6 +18,8 @@ jobs:
           
       - name: Install dependencies
         run: |
+            dotnet add package Serilog.Sinks.Console
+            dotnet add package System.CommandLine
             dotnet add package System.Security.Cryptography.ProtectedData
             dotnet add package ini-parser
             
@@ -25,7 +27,7 @@ jobs:
         run: dotnet --version
         
       - name: Dotnet publish
-        run: dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true /p:PublishTrimmed=true /p:TrimMode=Link
+        run: dotnet publish -c Release
       
       - name: Upload release asset
         uses: softprops/action-gh-release@v1
@@ -34,4 +36,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: |
-            bin/Release/net8.0/win-x64/publish/MobaXtermDecryptor.exe
+            bin\Release\publish\MobaXtermDecryptor.exe
