@@ -36,4 +36,4 @@ jobs:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
                   files: |
-                      bin\\Release\\publish\\MobaXtermDecryptor.exe
+                      bin/Release/publish/MobaXtermDecryptor.exe
